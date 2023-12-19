@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WeaterForUser_WebProfile\WeatherForUser_WebProfile.csproj" />
+    <ProjectReference Include="..\WeatherForUser_Core\WeatherForUser_Core.csproj" />
+  </ItemGroup>
+
+</Project>
